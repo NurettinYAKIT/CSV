@@ -1,9 +1,15 @@
 import dask.dataframe as dd
 import time
 
-t = time.time()
-df = dd.read_csv('../CSV/data/dataset.txt', sep=';', usecols=['store'])
-df = df.compute()
+# global dataframe will be used in main script and the methods
+df = None
+search_column = 'store'
+
+
+def load_csv_to_dataframe():
+    global df
+    df = dd.read_csv('./data/dataset.txt', sep=';', usecols=[search_column])
+    df = df.compute()
 
 
 def create_search_items_list():
@@ -13,24 +19,35 @@ def create_search_items_list():
 
 
 def find_one(store_id):
-    df_found = df[df['store'] == store_id]
+    df_found = df[df[search_column] == store_id]
+    # quick glance of the dataframe
     print(df_found.head(5))
+    # place of the item (which row)
     index = df_found.index
     number_of_rows = len(index)
     print(number_of_rows)
     print("Find one took: ", time.time() - t)
 
 
-# find_one(6529)
+# get the time to check time consumed
+t = time.time()
 
+# load csv file
+load_csv_to_dataframe()
+
+# create search items
 search_items_list = create_search_items_list()
 
-mask = df.store.apply(lambda x: any(item for item in search_items_list if item == x))
+# filter the dataframe columnt with the search items
+mask = df[search_column].apply(lambda x: any(item for item in search_items_list if item == x))
 df1 = df[mask]
 
-in_the_list = df1.store.unique()
+# get the unique ones
+in_the_list = df1[search_column].unique()
 
+# print the results
 print("Found : ", in_the_list)
 print("Missing : ", list(set(search_items_list) - set(in_the_list)))
 
+# print the time consumed
 print("Whole process took: ", time.time() - t)
