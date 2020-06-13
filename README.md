@@ -11,6 +11,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+![Twitter Follow](https://img.shields.io/twitter/follow/nurettinyakit?style=social)
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -26,8 +28,6 @@
 * [Contact](#contact)
 
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -35,12 +35,11 @@ This is a python project to read large & search large CSV files using `dask` whi
 
 The sample dataset includes more than `1000000` (1 million) lines. And it's larger than `100MB`.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!--[![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 ### Built With
 
 * Python
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -80,13 +79,6 @@ See the [open issues](https://github.com/NurettinYAKIT/CSV/issues) for a list of
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -98,16 +90,15 @@ Project Link: [https://github.com/NurettinYAKIT/CSV](https://github.com/Nurettin
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/nurettinyakit/CSV.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/nurettinyakit/CSV.svg?style=flat
 [contributors-url]: https://github.com/nurettinyakit/CSV/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/nurettinyakit/CSV.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/nurettinyakit/CSV.svg?style=flat
 [forks-url]: https://github.com/nurettinyakit/CSV/network/members
-[stars-shield]: https://img.shields.io/github/stars/nurettinyakit/CSV.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/nurettinyakit/CSV.svg?style=flat
 [stars-url]: https://github.com/nurettinyakit/CSV/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nurettinyakit/CSV.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/nurettinyakit/CSV.svg?style=flat
 [issues-url]: https://github.com/nurettinyakit/CSV/issues
-[license-shield]: https://img.shields.io/github/license/nurettinyakit/CSV.svg?style=flat-square
-[license-url]: https://github.com/nurettinyakit/CSV/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/nurettinyakit
-[product-screenshot]: images/screenshot.png
+
+<!--[product-screenshot]: images/screenshot.png -->
