@@ -25,8 +25,6 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [Contact](#contact)
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -78,15 +76,6 @@ See the [open issues](https://github.com/NurettinYAKIT/CSV/issues) for a list of
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-<!-- CONTACT -->
-## Contact
-
-Nurettin Onur YAKIT - [@NurettinYAKIT](https://twitter.com/NurettinYAKIT) - onuryakit@gmail.com
-
-Project Link: [https://github.com/NurettinYAKIT/CSV](https://github.com/NurettinYAKIT/CSV)
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
